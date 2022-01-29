@@ -42,7 +42,7 @@ let bearJack = (function () {
 
 let bearBilly = (function () {
     $.subscribe('messageForBilly', function () {
-        console.log('I run ')
+        console.log('Billy: I run ')
     })
     return {
         writeMessageToRose: function () {
