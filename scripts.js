@@ -1,6 +1,5 @@
 (function ($) {
-    var o = $({});
-
+    let o = $({});
     $.each({
         trigger: 'publish',
         on: 'subscribe',
